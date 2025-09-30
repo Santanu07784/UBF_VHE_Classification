@@ -4,6 +4,13 @@ This repository provides the PyTorch implementation of a **dual-branch ResNet18 
 
 
 ---
+## 🔹 Overview of the Model
+<p align="center">
+  <img src="Images/Picture1.png" alt="Cancer classification model overview" width="700">
+</p>
+
+*Figure: Dual-branch ResNet18 framework. Step 1: Virtual staining converts UBF to VHE.  
+Step 2: Final classification outputs cancerous vs noncancerous.*
 
 ---
 
