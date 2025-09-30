@@ -104,13 +104,18 @@ cancer_test/
 
 ---
 
-
-
 ## 🔹 Notes & Tips
 - Ensure UBF and VHE tiles are correctly paired and aligned (same filename), otherwise the dual-branch input will be mismatched.
 - If your dataset is imbalanced, consider using class weights or focal loss during training.
 - For Grad-CAM, `torchcam` is optional but convenient. If unavailable, simple saliency maps or guided backprop can be used.
 - Save model checkpoints frequently and keep logs of training/validation loss to detect overfitting early.
+- 
+---
+
+## 🔹 Datasets
+
+The training and testing datasets are not publicly available because it contains information that may violate the privacy of study participants. 
+Datasets used in this study can be obtained upon reasonable request for research purposes.
 
 ---
 
